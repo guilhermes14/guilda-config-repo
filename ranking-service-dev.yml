@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres-ranking:5432/ranking
+    username: postgres
+    password: ranking123
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    com.guilda: DEBUG
